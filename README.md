@@ -29,12 +29,8 @@ brew install terraform
 - As MongoDB Atlas clusters are created under a specific Atlas Organization and Project, go to your **Account** settings and in the [Organizations](https://cloud.mongodb.com/v2#/account/organizations) tab, ensure you have the Organization [created](https://docs.atlas.mongodb.com/tutorial/manage-organizations/#create-an-organization) to be used in this project and then for this Organization, **create** a new **Project** (or re-use an existing Project) and make a record of the project name.
 - Navigate to the project you are using and go to the API Keys tab on the [Access Manager](https://docs.atlas.mongodb.com/configure-api-access#manage-programmatic-access-to-a-project) page.
 
-![ACCESS MANAGER](img/1_access_manager.png "ACCESS MANAGER")
-
 Generate a new Programmatic API Key (record the public and private keys ready for subsequent use). Create the key with the 'Project Owner' permission as it needs permissions to create a cluster. Make sure to keep a copy of the public and private keys and add the IP of your laptop (or from where the API will be invoked) to the API whitelist entry.
 Navigate to the new/existing Atlas Project, then select the Settings option from the left hand menu and record the value of the Project ID field ready for subsequent use.
-
-![PROJECT SETTINGS](img/2_project_settings.png "PROJECT SETTINGS")
 
 ---
 
